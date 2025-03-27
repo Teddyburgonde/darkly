@@ -38,7 +38,7 @@ data:text/html;base64
 on a encoder un alert() qui declenche un script cachet.
 
 
-4.❌
+4.✅
 Deux champs dans le formulaire:
 Souvent c'est admin username.
 username: admin
@@ -92,12 +92,9 @@ print("\n[-] Attack completed. No password found.")
 
 The flag is : b3a6e43ddf8b4bbb4125e5e7d23040433827759d4de1c04ea63907479a80a6b2 
 
-
-```c
-
-
-
+5.❌
 ```
+
 
 
 
