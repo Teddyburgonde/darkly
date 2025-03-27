@@ -14,7 +14,11 @@ Gest Port 80
 ```
 
 ```c
+1.✅
 Forget Password
-button sutmit , j'ai mit envoyer a mon adresse 
+button submit , j'ai mit envoyer a mon adresse 
 The flag is : 1d4855f7337c0c14b6f44946872c4eb33853f40b2d54393fbe94f49f1e19bbb0
+
+2.❌
+
 ```
