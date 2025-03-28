@@ -199,7 +199,11 @@ C’est une XSS (Cross-Site Scripting) parce que tu peux y mettre du JavaScript 
 
 The flag is : 0fbb54bbf7d099713ca4be297e1bc7da0173d8b3c21c1811b916a3a86652724e
 
-12.❌
+12.✅
+
+robot.txt
+https://crackstation.net/
+The flag is : d19b4823e0d5600ceed56d5e896ef328d7a2b9e7ac7e80f4fcdb9b10bcb3e7ff 
 
 13.❌
 
