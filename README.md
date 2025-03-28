@@ -217,25 +217,17 @@ The flag is : df2eb4ba34ed059a1e3e89ff4dfc13445f104a1a52295214def1c4fb1693a5c3
 
 14.❌
 
+Hidden
+
 ```
 
 
+https://crackstation.net/
 
 
 
 
 
-
-
-
-
-
-
-
-
-
-
-https://github.com/ChokMania/Darkly/blob/master/10-XSS_Reflected_Cross-site_Scripting/Ressources/explications.md
 
 
 
