@@ -153,7 +153,13 @@ Le hash MD5 est : 1928e8083cf461a51303633093573c46
 
 6⛔ et 7⛔ a verifier. 
 
-8.❌
+
+
+8.✅
+Flag is: 03a944b434d5baff05f46c4bede5792551a2595574bcafc9a6e25f67c382ccaa
+
+
+9.❌
 © BornToSec
 
 
