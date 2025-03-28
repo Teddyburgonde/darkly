@@ -208,7 +208,12 @@ root
 qwerty123@
 The flag is : d19b4823e0d5600ceed56d5e896ef328d7a2b9e7ac7e80f4fcdb9b10bcb3e7ff 
 
-13.❌
+13.✅
+cookies
+sur chrome
+dans application/cookies
+j'ai remplacer la value qui voulait dire false par true
+The flag is : df2eb4ba34ed059a1e3e89ff4dfc13445f104a1a52295214def1c4fb1693a5c3
 
 14.❌
 
