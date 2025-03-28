@@ -160,13 +160,27 @@ Dans le code j'ai vue qu'on pouvait envoyer ce qu'on veut.
 'javascript:this.form.submit();'>
 j'ai changer la valeur du 2eme , puis j'ai selecter le premier grade et je l'ai changer.
 
-The flag is 03a944b434d5baff05f46c4bede5792551a2595574bcafc9a6e25f67c382ccaa
+The flag is : 03a944b434d5baff05f46c4bede5792551a2595574bcafc9a6e25f67c382ccaa
 
 
 9.❌
 © BornToSec
 
+10.✅
+Les logos
 
+index.php?page=redirect&site=facebook
+c'est une redirection donc on peut rediriger la ou on.
+
+The flag is : b9e775a0291fed784a2d9680fcfad7edd6b8cdf87648da647aaf4bba288bcab3
+
+11.❌
+
+12.❌
+
+13.❌
+
+14.❌
 
 ```
 
