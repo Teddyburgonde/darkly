@@ -163,8 +163,24 @@ j'ai changer la valeur du 2eme , puis j'ai selecter le premier grade et je l'ai 
 The flag is : 03a944b434d5baff05f46c4bede5792551a2595574bcafc9a6e25f67c382ccaa
 
 
-9.❌
-© BornToSec
+9.✅
+© BornToSec (celui avec le son et albatros)
+Commentaires trouver dans l'inspect.
+
+You must cumming from : "https://www.nsa.gov/" to go to the next step
+
+Let's use this browser : "ft_bornToSec". It will help you a lot.
+
+"Tu dois venir du site de la NSA et utiliser un navigateur spécial."
+
+Du coup, on fait croire au site qu’on vient de là et qu’on a ce navigateur.
+
+curl "http://localhost:8080/index.php?page=b7e44c7a40c5f80139f0a50f3650fb2bd8d00b0d24667c4c2ca32c88e13b758f" \
+  -H "Referer: https://www.nsa.gov/" \
+  -H "User-Agent: ft_bornToSec" | grep -i "flag"
+
+The flag is : f2a29020ef3132e01dd61df97fd33ec8d7fcd1388cc9601e7db691d17d4d6188
+
 
 10.✅
 Les logos
