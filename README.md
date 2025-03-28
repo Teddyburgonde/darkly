@@ -190,7 +190,14 @@ c'est une redirection donc on peut rediriger la ou on.
 
 The flag is : b9e775a0291fed784a2d9680fcfad7edd6b8cdf87648da647aaf4bba288bcab3
 
-11.❌
+11.✅
+Feedback
+j'ai taper juste dans name quelque chose et pas dans message.
+
+C’est une faille car le site réaffiche directement ce que tu tapes sans le vérifier, ce qui permet d’y injecter du code.
+C’est une XSS (Cross-Site Scripting) parce que tu peux y mettre du JavaScript malveillant qui s’exécutera dans le navigateur.
+
+The flag is : 0fbb54bbf7d099713ca4be297e1bc7da0173d8b3c21c1811b916a3a86652724e
 
 12.❌
 
