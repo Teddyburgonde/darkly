@@ -2,7 +2,8 @@
 import requests
 
 # Configuration
-URL = "http://localhost:8080/index.php"
+URL = "http://10.12.248.97/index.php"
+
 
 # Top 100 des mots de passe les plus utilisés (source: SecLists)
 PASSWORDS = [
