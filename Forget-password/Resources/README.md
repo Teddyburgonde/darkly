@@ -1,18 +1,19 @@
-Exploit:
+home/sign in/i forgot my password
 
+## Comment ?
 
-1. home/sign in/i forgot my password
+On voit :
 ```html
 <form action="#" method="POST">
 	<input type="hidden" name="mail" value="webmaster@borntosec.com" maxlength="15">
 <input type="submit" name="Submit" value= "Submit">
 ```
-J'ai remplacé la value par mon adresse mail.
 
-Comment éviter cela ?
+On a remplacé "value" par une autre adresse mail.
 
-```c
-Valider côté serveur que l'adresse e-mail ne peut pas être modifiée par l'utilisateur.
+## Comment l'éviter ?
+
+Définir l'adresse e-mail côté serveur afin qu'elle ne puisse pas être modifiée par l'utilisateur.
 Ne pas faire confiance à ce qui vient du front. 
-```
+
 

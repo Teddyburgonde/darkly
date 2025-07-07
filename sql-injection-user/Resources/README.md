@@ -1,19 +1,21 @@
 Menu déroulant/Members
 
-On a une barre de recherche avec le contenu qui est directement injecter dns une requete sql.
+## Comment ?
+On a une barre de recherche avec le contenu qui est directement injecté dns une requête sql.
 
-1er etape:
+1ere étape:
 
 1 OR 1=1 
-On recupe tout les users et on se rends compte un user s'appel flag.
+On récupère tous les users et on se rend compte qu'un user s'appelle flag.
 
-Ensuite on recupere toutes les colonnes de la base de donnée: 
+Ensuite on récupère toutes les colonnes de la base de donnée avec: 
 
 1 UNION select table_name, column_name FROM information_schema.columns
 
-Pour finir dans la table user en testant toute les colonnes et on a vue que les colonnes interessantes etait "Commentaire" et "countersign".
-1 UNION SELECT Commentaire, countersign FROM users WHERE first_name = CHAR(70,108,97,103) --
+Pour finir, dans la table user en testant toutes les colonnes, on trouve les colonnes intéressantes "Commentaire" et "countersign".  
+1 UNION SELECT Commentaire, countersign FROM users WHERE first_name = CHAR(70,108,97,103) --  
+CHAR(70,108,97,103) = "Flag"
 
-Comment l'éviter ?
+## Comment l'éviter ?
 
 Les ORM bloquent ce genre d'injections. 
